@@ -45,6 +45,14 @@ AOneFugitiveCharacter::AOneFugitiveCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	/* ---   Health   --- */
+	HealthComponent = CreateDefaultSubobject<UOF_HealthComponent>(TEXT("HealthComponent"));
+
+	if (HealthComponent)
+	{
+		HealthComponent->OnDead.AddDynamic(this, &AOneFugitiveCharacter::CharDead);
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -138,3 +146,59 @@ void AOneFugitiveCharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
+
+
+
+/* ---   Health   --- */
+
+/** Событие Делегата смерти персонажа */
+/** Character death delegate event */
+void AOneFugitiveCharacter::CharDead_BP_Implementation()
+{
+	// in BP
+}
+
+
+
+void AOneFugitiveCharacter::CharDead()
+{
+	// Отсоединение Коннтроллера персонажа
+	if (GetController())
+	{
+		GetController()->UnPossess();
+	}
+
+	UnPossessed();
+
+	// Настройка меша: "Тряпичная кукла"
+	if (GetMesh())
+	{
+		GetMesh()->SetCollisionEnabled(ECollisionEnabled::PhysicsOnly);
+		GetMesh()->SetSimulatePhysics(true);
+	}
+
+	// Уничтожение Актора спустя время
+	SetLifeSpan(1.0f);
+
+	CharDead_BP();
+}
+
+/** Получение урона от UE4 */
+/** Taking damage from UE4 */
+float AOneFugitiveCharacter::TakeDamage(
+	float DamageAmount, 
+	FDamageEvent const& DamageEvent, 
+	AController* EventInstigator, 
+	AActor* DamageCauser)
+{
+	float ActualDamage = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+
+	if (HealthComponent)
+	{
+		HealthComponent->ChangeHealthValue(-DamageAmount);
+	}
+
+	return ActualDamage;
+}
+// ----------------------------------------------------------------------------------------------------
+
