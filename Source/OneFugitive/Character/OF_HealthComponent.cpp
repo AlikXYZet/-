@@ -57,6 +57,10 @@ void UOF_HealthComponent::ChangeHealthValue(float ChangeValue)
 		else if (Health < 0.0f)
 		{
 			bIsAlive = false;
+
+			// Обнуление отображения HP
+			OnHealthChange.Broadcast(Health, ChangeValue);
+
 			OnDead.Broadcast();
 		}
 		else

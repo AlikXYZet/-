@@ -76,6 +76,9 @@ public:
 
 	/* ---   Health   --- */
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		float TimeLifeSpan = 10.0f;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Health", meta = (AllowPrivateAccess = "true"))
 		class UOF_HealthComponent* HealthComponent = nullptr;
 
@@ -83,6 +86,7 @@ public:
 	/** Character death delegate event */
 	UFUNCTION(BlueprintNativeEvent)
 		void CharDead_BP();
+
 	UFUNCTION()
 		void CharDead();
 

@@ -178,7 +178,7 @@ void AOneFugitiveCharacter::CharDead()
 	}
 
 	// Уничтожение Актора спустя время
-	SetLifeSpan(1.0f);
+	SetLifeSpan(TimeLifeSpan);
 
 	CharDead_BP();
 }
