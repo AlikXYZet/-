@@ -18,7 +18,7 @@ class ONEFUGITIVE_API UOF_PlatformActionComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
 	UOF_PlatformActionComponent();
 
@@ -26,7 +26,7 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	// ----------------------------------------------------------------------------------------------------
@@ -35,17 +35,25 @@ public:
 
 	/* ---   Event   --- */
 	//
-	UFUNCTION(BlueprintNativeEvent)
+	UFUNCTION()
 		void PlatformBeginOverlap(AOneFugitiveCharacter* MyCharacter);
-
 	UFUNCTION(BlueprintNativeEvent)
+		void PlatformBeginOverlap_BP(AOneFugitiveCharacter* MyCharacter);
+
+	UFUNCTION()
 		void PlatformEndOverlap(AOneFugitiveCharacter* MyCharacter);
-
 	UFUNCTION(BlueprintNativeEvent)
+		void PlatformEndOverlap_BP(AOneFugitiveCharacter* MyCharacter);
+
+	UFUNCTION()
 		void PlatformHit(AOneFugitiveCharacter* MyCharacter);
+	UFUNCTION(BlueprintNativeEvent)
+		void PlatformHit_BP(AOneFugitiveCharacter* MyCharacter);
 	// ----------------------------------------------------------------------------------------------------
 
 
 
 	AOF_BasicPlatform* ThisPlatform = Cast<AOF_BasicPlatform>(GetOwner());
+
+	TArray<AOneFugitiveCharacter*> StandingCharacters;
 };

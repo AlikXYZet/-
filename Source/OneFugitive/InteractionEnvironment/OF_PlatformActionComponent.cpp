@@ -41,17 +41,38 @@ void UOF_PlatformActionComponent::TickComponent(float DeltaTime, ELevelTick Tick
 
 /* ---   Event   --- */
 //
-void UOF_PlatformActionComponent::PlatformBeginOverlap_Implementation(AOneFugitiveCharacter* MyCharacter)
+void UOF_PlatformActionComponent::PlatformBeginOverlap(AOneFugitiveCharacter* MyCharacter)
+{
+	StandingCharacters.AddUnique(MyCharacter);
+
+	PlatformBeginOverlap_BP(MyCharacter);
+}
+
+void UOF_PlatformActionComponent::PlatformBeginOverlap_BP_Implementation(AOneFugitiveCharacter* MyCharacter)
 {
 	// in BP
 }
 
-void UOF_PlatformActionComponent::PlatformEndOverlap_Implementation(AOneFugitiveCharacter* MyCharacter)
+//
+void UOF_PlatformActionComponent::PlatformEndOverlap(AOneFugitiveCharacter* MyCharacter)
+{
+	StandingCharacters.Remove(MyCharacter);
+
+	PlatformEndOverlap_BP(MyCharacter);
+}
+
+void UOF_PlatformActionComponent::PlatformEndOverlap_BP_Implementation(AOneFugitiveCharacter* MyCharacter)
 {
 	// in BP
 }
 
-void UOF_PlatformActionComponent::PlatformHit_Implementation(AOneFugitiveCharacter* MyCharacter)
+//
+void UOF_PlatformActionComponent::PlatformHit(AOneFugitiveCharacter* MyCharacter)
+{
+	PlatformHit_BP(MyCharacter);
+}
+
+void UOF_PlatformActionComponent::PlatformHit_BP_Implementation(AOneFugitiveCharacter* MyCharacter)
 {
 	// in BP
 }
