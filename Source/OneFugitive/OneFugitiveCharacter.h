@@ -4,9 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-
+// My:
 #include "Character/OF_HealthComponent.h"
 
+// Generated:
 #include "OneFugitiveCharacter.generated.h"
 
 UCLASS(config = Game)

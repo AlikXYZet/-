@@ -1,0 +1,442 @@
+﻿# Game Russian translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2023-10-09 20:30\n"
+"PO-Revision-Date: 2023-10-09 20:30\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Key:	009556AF48CE6937BF572F8EFB679827
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_27.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_27.NewTextRenderComponent.Text
+msgctxt ",009556AF48CE6937BF572F8EFB679827"
+msgid "Slate"
+msgstr ""
+
+#. Key:	00A0A79A4F31FC1919043D8AA52B0070
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_30.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_30.NewTextRenderComponent.Text
+msgctxt ",00A0A79A4F31FC1919043D8AA52B0070"
+msgid "Panel"
+msgstr ""
+
+#. Key:	039658814CF87737A7CA3486EF49FBD7
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_Time.BPW_Time_C:ExecuteUbergraph_BPW_Time [Script Bytecode]
+#: /Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_Time.BPW_Time_C:ExecuteUbergraph_BPW_Time [Script Bytecode]
+msgctxt ",039658814CF87737A7CA3486EF49FBD7"
+msgid "{ZeroM}{min}:{ZeroS}{sec}"
+msgstr ""
+
+#. Key:	060AD8364E7BBBB8D1E92DB0511E8FD6
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_14.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_14.NewTextRenderComponent.Text
+msgctxt ",060AD8364E7BBBB8D1E92DB0511E8FD6"
+msgid "Moss"
+msgstr ""
+
+#. Key:	0617410D48DDD822A4B659B6905706A3
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_19.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_19.NewTextRenderComponent.Text
+msgctxt ",0617410D48DDD822A4B659B6905706A3"
+msgid "Gold"
+msgstr ""
+
+#. Key:	0CC9863546E64AC6B74E30A32D607376
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_15.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_15.NewTextRenderComponent.Text
+msgctxt ",0CC9863546E64AC6B74E30A32D607376"
+msgid "Stone Brick, Cut"
+msgstr ""
+
+#. Key:	101C3D3245B4095ACFF88BB9F6768A35
+#. SourceLocation:	/Game/OF/Maps/Levels/L_Test.L_Test:PersistentLevel.Text_DemageZone3.NewTextRenderComponent.Text
+#: /Game/OF/Maps/Levels/L_Test.L_Test:PersistentLevel.Text_DemageZone3.NewTextRenderComponent.Text
+msgctxt ",101C3D3245B4095ACFF88BB9F6768A35"
+msgid "Finish\r\nZone"
+msgstr "Зона\r\nФиниша"
+
+#. Key:	103CAF314FF96D8FB1E7D9AA3B4CE11E
+#. SourceLocation:	/Game/OF/Maps/Levels/L_Test.L_Test:PersistentLevel.Text_DemageZone.NewTextRenderComponent.Text
+#: /Game/OF/Maps/Levels/L_Test.L_Test:PersistentLevel.Text_DemageZone.NewTextRenderComponent.Text
+msgctxt ",103CAF314FF96D8FB1E7D9AA3B4CE11E"
+msgid "Damage\r\nZone"
+msgstr "Зона\r\nУрона"
+
+#. Key:	1685EE6F4E7E8AFF229191BF97456889
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_2.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_2.NewTextRenderComponent.Text
+msgctxt ",1685EE6F4E7E8AFF229191BF97456889"
+msgid "Stone Brick, Hewn"
+msgstr ""
+
+#. Key:	18DC5E9443A5BB3A2B90F7B162ACF84B
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_23.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_23.NewTextRenderComponent.Text
+msgctxt ",18DC5E9443A5BB3A2B90F7B162ACF84B"
+msgid "Brushed Nickel"
+msgstr ""
+
+#. Key:	222FACF642D2D13D3FC5D396EC0892D6
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_Time.BPW_Time_C:WidgetTree.TextBlock_93.Text
+#: /Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_Time.BPW_Time_C:WidgetTree.TextBlock_93.Text
+msgctxt ",222FACF642D2D13D3FC5D396EC0892D6"
+msgid "Time: "
+msgstr "Время:"
+
+#. Key:	24C489A34592BED58A3A7CB71F18EEB5
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_16.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_16.NewTextRenderComponent.Text
+msgctxt ",24C489A34592BED58A3A7CB71F18EEB5"
+msgid "Grass"
+msgstr ""
+
+#. Key:	313A3BB249DAEAB1996C68A9FA409DE5
+#. SourceLocation:	/Game/OF/Maps/Levels/L_Test.L_Test:PersistentLevel.TextRenderActor_1.NewTextRenderComponent.Text
+#: /Game/OF/Maps/Levels/L_Test.L_Test:PersistentLevel.TextRenderActor_1.NewTextRenderComponent.Text
+msgctxt ",313A3BB249DAEAB1996C68A9FA409DE5"
+msgid "Third Person"
+msgstr ""
+
+#. Key:	318DF6AA48C07751B70AC8B6561411F1
+#. SourceLocation:	/Game/OF/Maps/Levels/L_Test.L_Test:PersistentLevel.Text_DemageZone2.NewTextRenderComponent.Text
+#: /Game/OF/Maps/Levels/L_Test.L_Test:PersistentLevel.Text_DemageZone2.NewTextRenderComponent.Text
+msgctxt ",318DF6AA48C07751B70AC8B6561411F1"
+msgid "Start\r\nZone"
+msgstr "Зона\r\nСтарта"
+
+#. Key:	3262ABFE423BC5EBAD106AA09BEB06B1
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_5.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_5.NewTextRenderComponent.Text
+msgctxt ",3262ABFE423BC5EBAD106AA09BEB06B1"
+msgid "Clay Brick, Beveled"
+msgstr ""
+
+#. Key:	3871A52D427564C0A497B7A1311FC0A8
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_LevelButton.BPW_LevelButton_C:WidgetTree.LevelName_Text.Text
+#: /Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_LevelButton.BPW_LevelButton_C:WidgetTree.LevelName_Text.Text
+msgctxt ",3871A52D427564C0A497B7A1311FC0A8"
+msgid "[LevelName]"
+msgstr ""
+
+#. Key:	38D774124718D501074E67B63BDFA531
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_10.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_10.NewTextRenderComponent.Text
+msgctxt ",38D774124718D501074E67B63BDFA531"
+msgid "Concrete, Grime"
+msgstr ""
+
+#. Key:	38D8584F40423B7E408A29A248AAC4A5
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_25.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_25.NewTextRenderComponent.Text
+msgctxt ",38D8584F40423B7E408A29A248AAC4A5"
+msgid "Rust"
+msgstr ""
+
+#. Key:	39544187479738D17D7BA8B5A5527C0D
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_32.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_32.NewTextRenderComponent.Text
+msgctxt ",39544187479738D17D7BA8B5A5527C0D"
+msgid "Lake Water"
+msgstr ""
+
+#. Key:	39A9DF0C417D6D6ADB8616B8BF5F6AAF
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_33.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_33.NewTextRenderComponent.Text
+msgctxt ",39A9DF0C417D6D6ADB8616B8BF5F6AAF"
+msgid "Ocean Water"
+msgstr ""
+
+#. Key:	3C38643A4130ACD2F928A7B8F9C3634F
+#. SourceLocation:	/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TextRenderActor_1.NewTextRenderComponent.Text
+#: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TextRenderActor_1.NewTextRenderComponent.Text
+msgctxt ",3C38643A4130ACD2F928A7B8F9C3634F"
+msgid "Third Person"
+msgstr ""
+
+#. Key:	3FD9F5ED495B69292191DF990216AE9E
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_6.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_6.NewTextRenderComponent.Text
+msgctxt ",3FD9F5ED495B69292191DF990216AE9E"
+msgid "Ceramic Tile"
+msgstr ""
+
+#. Key:	40003A444A5F919E59AA34AC84F199FF
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_12.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_12.NewTextRenderComponent.Text
+msgctxt ",40003A444A5F919E59AA34AC84F199FF"
+msgid "Cobblestone, Smooth"
+msgstr ""
+
+#. Key:	44FF04AF47DB16E7B44F93AFE53D5FC8
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_9.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_9.NewTextRenderComponent.Text
+msgctxt ",44FF04AF47DB16E7B44F93AFE53D5FC8"
+msgid "Cobblestone, Pebble"
+msgstr ""
+
+#. Key:	4B9491794C9B65AFD5238F9A01F967F1
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/BPW_EndLevel.BPW_EndLevel_C:ExecuteUbergraph_BPW_EndLevel [Script Bytecode]
+#: /Game/OF/Blueprints/Widget/Menu/BPW_EndLevel.BPW_EndLevel_C:ExecuteUbergraph_BPW_EndLevel [Script Bytecode]
+msgctxt ",4B9491794C9B65AFD5238F9A01F967F1"
+msgid "Victory!"
+msgstr "Победа!"
+
+#. Key:	4F710CC846D7143D0BA387B831402BCE
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/BPW_Menu.BPW_Menu_C:WidgetTree.TextBlock_169.Text
+#: /Game/OF/Blueprints/Widget/Menu/BPW_Menu.BPW_Menu_C:WidgetTree.TextBlock_169.Text
+msgctxt ",4F710CC846D7143D0BA387B831402BCE"
+msgid "EXIT"
+msgstr "ВЫХОД"
+
+#. Key:	57DCAD71427BAE0D4D2709BA45E4CB57
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_17.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_17.NewTextRenderComponent.Text
+msgctxt ",57DCAD71427BAE0D4D2709BA45E4CB57"
+msgid "Steel"
+msgstr ""
+
+#. Key:	66983CA3480355B534C2128799A4B369
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_MenuButton.BPW_MenuButton_C:WidgetTree.TextBlock_169.Text
+#: /Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_MenuButton.BPW_MenuButton_C:WidgetTree.TextBlock_169.Text
+msgctxt ",66983CA3480355B534C2128799A4B369"
+msgid "TO MENU"
+msgstr "В МЕНЮ"
+
+#. Key:	6C8005D34C59B52AF1D555A08F8BA1CB
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_28.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_28.NewTextRenderComponent.Text
+msgctxt ",6C8005D34C59B52AF1D555A08F8BA1CB"
+msgid "Hex Tiles"
+msgstr ""
+
+#. Key:	740F1A3045F1961987353FA849FEC79B
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/BPW_EndLevel.BPW_EndLevel_C:WidgetTree.Text_LS.Text
+#: /Game/OF/Blueprints/Widget/Menu/BPW_EndLevel.BPW_EndLevel_C:WidgetTree.Text_LS.Text
+msgctxt ",740F1A3045F1961987353FA849FEC79B"
+msgid "*Level Status*"
+msgstr ""
+
+#. Key:	7B53C2BC43A5480E61F00C9FDF468560
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_21.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_21.NewTextRenderComponent.Text
+msgctxt ",7B53C2BC43A5480E61F00C9FDF468560"
+msgid "Gravel"
+msgstr ""
+
+#. Key:	9109A2034C859F9524A59CBFEBD12631
+#. SourceLocation:	/Game/OF/Maps/Levels/Level_1_1.Level_1_1:PersistentLevel.TextRenderActor_1.NewTextRenderComponent.Text
+#: /Game/OF/Maps/Levels/Level_1_1.Level_1_1:PersistentLevel.TextRenderActor_1.NewTextRenderComponent.Text
+msgctxt ",9109A2034C859F9524A59CBFEBD12631"
+msgid "Third Person"
+msgstr ""
+
+#. Key:	91A205E24821696E1AFB8886EED1D53D
+#. SourceLocation:	/Game/OF/Table/Enum_Localization.Enum_Localization.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/OF/Table/Enum_Localization.Enum_Localization.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",91A205E24821696E1AFB8886EED1D53D"
+msgid "ENG"
+msgstr "ENG"
+
+#. Key:	92BF808F419CFC86361DBEA5DF0B95F2
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_11.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_11.NewTextRenderComponent.Text
+msgctxt ",92BF808F419CFC86361DBEA5DF0B95F2"
+msgid "Concrete, Panels"
+msgstr ""
+
+#. Key:	9349792842F77304E795FEB0A7DBBF36
+#. SourceLocation:	/Game/OF/Table/Enum_Localization.Enum_Localization.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/OF/Table/Enum_Localization.Enum_Localization.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",9349792842F77304E795FEB0A7DBBF36"
+msgid "RUS"
+msgstr "РУС"
+
+#. Key:	9B3B2B8849D4AE1E15A3988C6174FFCE
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_39.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_39.NewTextRenderComponent.Text
+msgctxt ",9B3B2B8849D4AE1E15A3988C6174FFCE"
+msgid "Checker/Dot"
+msgstr ""
+
+#. Key:	A51630AD4072309AF482CDADB8AF5C58
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_26.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_26.NewTextRenderComponent.Text
+msgctxt ",A51630AD4072309AF482CDADB8AF5C58"
+msgid "Sandstone"
+msgstr ""
+
+#. Key:	A5B92A6F489E6BDD33F59DA42E55D476
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_3.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_3.NewTextRenderComponent.Text
+msgctxt ",A5B92A6F489E6BDD33F59DA42E55D476"
+msgid "Clay Brick, Old"
+msgstr ""
+
+#. Key:	A7C33B674405B9E923B5089D27FDAA5F
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/BPW_PauseMenu.BPW_PauseMenu_C:WidgetTree.TextBlock_57.Text
+#: /Game/OF/Blueprints/Widget/Menu/BPW_PauseMenu.BPW_PauseMenu_C:WidgetTree.TextBlock_57.Text
+msgctxt ",A7C33B674405B9E923B5089D27FDAA5F"
+msgid "RESUME"
+msgstr "ПРОДОЛЖИТЬ"
+
+#. Key:	A83773C741082AAF61DA6DA80F294B39
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/BPW_EndLevel.BPW_EndLevel_C:ExecuteUbergraph_BPW_EndLevel [Script Bytecode]
+#: /Game/OF/Blueprints/Widget/Menu/BPW_EndLevel.BPW_EndLevel_C:ExecuteUbergraph_BPW_EndLevel [Script Bytecode]
+msgctxt ",A83773C741082AAF61DA6DA80F294B39"
+msgid "Defeat!"
+msgstr "Поражение!"
+
+#. Key:	BC8152834213B5D1A460AE967CA1F09F
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_31.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_31.NewTextRenderComponent.Text
+msgctxt ",BC8152834213B5D1A460AE967CA1F09F"
+msgid "Pulse"
+msgstr ""
+
+#. Key:	BEF4E8B743D60917FE0C7E96572FA69A
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_18.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_18.NewTextRenderComponent.Text
+msgctxt ",BEF4E8B743D60917FE0C7E96572FA69A"
+msgid "Concrete, Tiles"
+msgstr ""
+
+#. Key:	C03DFA0247D830CD61C72398005B2FDA
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/BPW_Menu.BPW_Menu_C:WidgetTree.TextBlock_57.Text
+#: /Game/OF/Blueprints/Widget/Menu/BPW_Menu.BPW_Menu_C:WidgetTree.TextBlock_57.Text
+msgctxt ",C03DFA0247D830CD61C72398005B2FDA"
+msgid "PLAY"
+msgstr "ИГРАТЬ"
+
+#. Key:	C5B01FDC4666B6AD8CF7B48B77F8A008
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_Time.BPW_Time_C:WidgetTree.Text_Time.Text
+#: /Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_Time.BPW_Time_C:WidgetTree.Text_Time.Text
+msgctxt ",C5B01FDC4666B6AD8CF7B48B77F8A008"
+msgid "*MM : SS*"
+msgstr ""
+
+#. Key:	C7BE34DF4B976E6D653AEC9D6B6D8E52
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_13.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_13.NewTextRenderComponent.Text
+msgctxt ",C7BE34DF4B976E6D653AEC9D6B6D8E52"
+msgid "Concrete, Poured"
+msgstr ""
+
+#. Key:	CBD93432421B0C6B48A8AE9587579BA4
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_37.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_37.NewTextRenderComponent.Text
+msgctxt ",CBD93432421B0C6B48A8AE9587579BA4"
+msgid "Walnut, Worn"
+msgstr ""
+
+#. Key:	D35E3B404B9DAFA43F54858FA9AC54FE
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_MenuButton.BPW_MenuButton_C:WidgetTree.TextBlock.Text
+#: /Game/OF/Blueprints/Widget/Menu/ButtonAndText/BPW_MenuButton.BPW_MenuButton_C:WidgetTree.TextBlock.Text
+msgctxt ",D35E3B404B9DAFA43F54858FA9AC54FE"
+msgid "EXIT"
+msgstr "ВЫХОД"
+
+#. Key:	D67372D04B388B707D841996FA22838F
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_35.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_35.NewTextRenderComponent.Text
+msgctxt ",D67372D04B388B707D841996FA22838F"
+msgid "Walnut"
+msgstr ""
+
+#. Key:	D8E693054E8EC046F143C3985127A19A
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_29.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_29.NewTextRenderComponent.Text
+msgctxt ",D8E693054E8EC046F143C3985127A19A"
+msgid "Chrome"
+msgstr ""
+
+#. Key:	DB2D98644AE2106EC187AE916E124736
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_34.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_34.NewTextRenderComponent.Text
+msgctxt ",DB2D98644AE2106EC187AE916E124736"
+msgid "Basalt"
+msgstr ""
+
+#. Key:	E40E2E204F2C92F3AD556CA2107F7264
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/BPW_EndLevel.BPW_EndLevel_C:WidgetTree.TextBlock_57.Text
+#: /Game/OF/Blueprints/Widget/Menu/BPW_EndLevel.BPW_EndLevel_C:WidgetTree.TextBlock_57.Text
+msgctxt ",E40E2E204F2C92F3AD556CA2107F7264"
+msgid "RESTART"
+msgstr "ПЕРЕЗАПУСК"
+
+#. Key:	E440F3DE45BA4B2C5D8050A73EE833FB
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_45.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_45.NewTextRenderComponent.Text
+msgctxt ",E440F3DE45BA4B2C5D8050A73EE833FB"
+msgid "Oak"
+msgstr ""
+
+#. Key:	EBF5D09C4756D0B7B5CB348568DEFA86
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_22.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_22.NewTextRenderComponent.Text
+msgctxt ",EBF5D09C4756D0B7B5CB348568DEFA86"
+msgid "Copper"
+msgstr ""
+
+#. Key:	EE646BB14DE4C7BB8D374F9CF223B43D
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_7.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_7.NewTextRenderComponent.Text
+msgctxt ",EE646BB14DE4C7BB8D374F9CF223B43D"
+msgid "Click The Simulate Toolbar Button"
+msgstr ""
+
+#. Key:	EFADC8944C63DE9AFEE7BAA266F25ACA
+#. SourceLocation:	/Game/OF/Blueprints/Widget/Menu/BPW_PauseMenu.BPW_PauseMenu_C:WidgetTree.TextBlock_173.Text
+#: /Game/OF/Blueprints/Widget/Menu/BPW_PauseMenu.BPW_PauseMenu_C:WidgetTree.TextBlock_173.Text
+msgctxt ",EFADC8944C63DE9AFEE7BAA266F25ACA"
+msgid "PAUSED"
+msgstr "ПАУЗА"
+
+#. Key:	F1B4647C4F088A14EDBD99AE31D83F23
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_36.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_36.NewTextRenderComponent.Text
+msgctxt ",F1B4647C4F088A14EDBD99AE31D83F23"
+msgid "Pine"
+msgstr ""
+
+#. Key:	F4CE2CAE439B929F7A803B819685F312
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_4.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_4.NewTextRenderComponent.Text
+msgctxt ",F4CE2CAE439B929F7A803B819685F312"
+msgid "Clay Brick, New"
+msgstr ""
+
+#. Key:	F80060F044605E4D0FC1D99B3043C1EE
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_38.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_38.NewTextRenderComponent.Text
+msgctxt ",F80060F044605E4D0FC1D99B3043C1EE"
+msgid "Walnut, Polished"
+msgstr ""
+
+#. Key:	FC576AD54EB2C44A8F725D924751F6E3
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_8.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_8.NewTextRenderComponent.Text
+msgctxt ",FC576AD54EB2C44A8F725D924751F6E3"
+msgid "Cobblestone, Rough"
+msgstr ""
+
+#. Key:	FE4D72B74727D68EE900269512ADBD13
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_20.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_20.NewTextRenderComponent.Text
+msgctxt ",FE4D72B74727D68EE900269512ADBD13"
+msgid "Burnished Steel"
+msgstr ""
+
+#. Key:	FEEBA05E427D3BC99C25A4AD6E9F934F
+#. SourceLocation:	/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_24.NewTextRenderComponent.Text
+#: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.TextLabel_24.NewTextRenderComponent.Text
+msgctxt ",FEEBA05E427D3BC99C25A4AD6E9F934F"
+msgid "Polished Marble"
+msgstr ""
+
