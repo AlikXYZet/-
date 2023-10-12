@@ -51,6 +51,8 @@ public:
 		void PlatformHit_BP(AOneFugitiveCharacter* MyCharacter);
 	// ----------------------------------------------------------------------------------------------------
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction")
+		bool bActionLogicIsActive = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction")
 		AOF_BasicPlatform* ThisPlatform = Cast<AOF_BasicPlatform>(GetOwner());
