@@ -52,8 +52,9 @@ public:
 	// ----------------------------------------------------------------------------------------------------
 
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction")
+		AOF_BasicPlatform* ThisPlatform = Cast<AOF_BasicPlatform>(GetOwner());
 
-	AOF_BasicPlatform* ThisPlatform = Cast<AOF_BasicPlatform>(GetOwner());
-
-	TArray<AOneFugitiveCharacter*> StandingCharacters;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction")
+		TArray<AOneFugitiveCharacter*> StandingCharacters;
 };

@@ -183,7 +183,7 @@ void AOneFugitiveCharacter::CharDead()
 	CharDead_BP();
 }
 
-/** Получение урона от UE4 */
+/** Получение урона из UE4 */
 /** Taking damage from UE4 */
 float AOneFugitiveCharacter::TakeDamage(
 	float DamageAmount, 
