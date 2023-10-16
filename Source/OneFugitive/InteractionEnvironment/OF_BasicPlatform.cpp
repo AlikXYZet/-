@@ -9,12 +9,10 @@ AOF_BasicPlatform::AOF_BasicPlatform()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Scene"));
-	RootComponent = SceneComponent;
-
 	PlatformMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Platform"));
 	PlatformMesh->SetupAttachment(RootComponent);
 	PlatformMesh->SetCanEverAffectNavigation(false);
+	RootComponent = PlatformMesh;
 
 	BoxTrigger = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger"));
 	BoxTrigger->SetupAttachment(RootComponent);
@@ -92,7 +90,7 @@ void AOF_BasicPlatform::PlatformHit(
 
 	if (MyCharacter)
 	{
-		OnPlatformHit.Broadcast(MyCharacter);
+		OnPlatformHit.Broadcast(MyCharacter, Hit);
 	}
 }
 // ----------------------------------------------------------------------------------------------------

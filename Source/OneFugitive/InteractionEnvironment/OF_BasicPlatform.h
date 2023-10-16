@@ -18,7 +18,7 @@
 /* ---   Delegate   --- */
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnPlatformBeginOverlap, AOneFugitiveCharacter*, MyCharacter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnPlatformEndOverlap, AOneFugitiveCharacter*, MyCharacter);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnPlatformHit, AOneFugitiveCharacter*, MyCharacter);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnPlatformHit, AOneFugitiveCharacter*, MyCharacter, const FHitResult&, Hit);
 // ----------------------------------------------------------------------------------------------------
 
 
@@ -31,9 +31,6 @@ class ONEFUGITIVE_API AOF_BasicPlatform : public AActor
 public:
 	// Sets default values for this actor's properties
 	AOF_BasicPlatform();
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"), Category = Components)
-		class USceneComponent* SceneComponent = nullptr;
 
 	UPROPERTY(Category = PlatformMesh, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 		class UStaticMeshComponent* PlatformMesh = nullptr;

@@ -46,10 +46,12 @@ public:
 		void PlatformEndOverlap_BP(AOneFugitiveCharacter* MyCharacter);
 
 	UFUNCTION()
-		void PlatformHit(AOneFugitiveCharacter* MyCharacter);
+		void PlatformHit(AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit);
 	UFUNCTION(BlueprintNativeEvent)
-		void PlatformHit_BP(AOneFugitiveCharacter* MyCharacter);
+		void PlatformHit_BP(AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit);
 	// ----------------------------------------------------------------------------------------------------
+
+
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction")
 		bool bActionLogicIsActive = false;
