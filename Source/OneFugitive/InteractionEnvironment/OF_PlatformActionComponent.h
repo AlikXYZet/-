@@ -5,6 +5,10 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 
+// UE4:
+#include "Particles/ParticleSystemComponent.h"
+// Plugins:
+#include "NiagaraComponent.h"
 // My:
 #include "OF_BasicPlatform.h"
 
@@ -61,4 +65,39 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction")
 		TArray<AOneFugitiveCharacter*> StandingCharacters;
+
+	/* ---   Particle   --- */
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction|Particle")
+		UParticleSystem* PlatformParticle = nullptr;
+
+	UPROPERTY(BlueprintReadWrite, Category = "PlatformAction|Particle")
+		UParticleSystemComponent* PlatformParticleComponent = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction|Particle")
+		FTransform Transform_PC = FTransform();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction|Particle")
+		bool bManualAttachment_PC = false;
+	// ----------------------------------------------------------------------------------------------------
+
+
+
+	/* ---   Niagara   --- */
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction|Niagara")
+		UNiagaraSystem* PlatformNiagaraTemplate = nullptr;
+
+	UPROPERTY(BlueprintReadWrite, Category = "PlatformAction|Niagara")
+		UNiagaraComponent* PlatformNiagaraComponent = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction|Niagara")
+		FTransform Transform_NC = FTransform();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction|Niagara")
+		bool bAutoDestroy_NC = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlatformAction|Niagara")
+		bool bAutoActivate_NC = false;
+	// ----------------------------------------------------------------------------------------------------
 };

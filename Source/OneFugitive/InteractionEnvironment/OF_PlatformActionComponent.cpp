@@ -25,6 +25,33 @@ void UOF_PlatformActionComponent::BeginPlay()
 		ThisPlatform->OnPlatformBeginOverlap.AddDynamic(this, &UOF_PlatformActionComponent::PlatformBeginOverlap);
 		ThisPlatform->OnPlatformEndOverlap.AddDynamic(this, &UOF_PlatformActionComponent::PlatformEndOverlap);
 		ThisPlatform->OnPlatformHit.AddDynamic(this, &UOF_PlatformActionComponent::PlatformHit);
+
+		if (PlatformParticle)
+		{
+			PlatformParticleComponent = Cast<UParticleSystemComponent>(
+				ThisPlatform->AddComponentByClass(
+					UParticleSystemComponent::StaticClass(), 
+					false,
+					Transform_PC,
+					bManualAttachment_PC));
+
+			PlatformParticleComponent->SetTemplate(PlatformParticle);
+		}
+
+		if (PlatformNiagaraTemplate)
+		{
+			PlatformNiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(
+				PlatformNiagaraTemplate, 
+				ThisPlatform->SceneComponent, 
+				NAME_None, 
+				Transform_NC.GetLocation(),
+				FRotator(Transform_NC.GetRotation()),
+				EAttachLocation::Type::KeepRelativeOffset, 
+				bAutoDestroy_NC,
+				bAutoActivate_NC);
+
+			PlatformNiagaraComponent->SetRelativeScale3D(Transform_NC.GetScale3D());
+		}
 	}
 }
 

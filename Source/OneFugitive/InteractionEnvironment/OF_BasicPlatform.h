@@ -7,6 +7,10 @@
 
 // UE4:
 #include "Components/BoxComponent.h"
+#include "Particles/ParticleSystemComponent.h"
+// Plugins:
+#include "NiagaraComponent.h"
+#include "NiagaraFunctionLibrary.h"
 // My:
 #include "OneFugitive/OneFugitiveCharacter.h"
 
@@ -32,10 +36,13 @@ public:
 	// Sets default values for this actor's properties
 	AOF_BasicPlatform();
 
-	UPROPERTY(Category = PlatformMesh, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(Category = Components, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		class USceneComponent* SceneComponent = nullptr;
+
+	UPROPERTY(Category = Components, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 		class UStaticMeshComponent* PlatformMesh = nullptr;
 
-	UPROPERTY(Category = PlatformMesh, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(Category = Components, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 		class UBoxComponent* BoxTrigger = nullptr;
 	// ----------------------------------------------------------------------------------------------------
 
