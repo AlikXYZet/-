@@ -94,12 +94,12 @@ void UOF_PlatformActionComponent::PlatformEndOverlap_BP_Implementation(AOneFugit
 }
 
 //
-void UOF_PlatformActionComponent::PlatformHit(AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit)
+void UOF_PlatformActionComponent::PlatformHit(bool bTopHit, AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit)
 {
-	PlatformHit_BP(MyCharacter, Hit);
+	PlatformHit_BP(bTopHit, MyCharacter, Hit);
 }
 
-void UOF_PlatformActionComponent::PlatformHit_BP_Implementation(AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit)
+void UOF_PlatformActionComponent::PlatformHit_BP_Implementation(bool bTopHit, AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit)
 {
 	// in BP
 }

@@ -50,9 +50,9 @@ public:
 		void PlatformEndOverlap_BP(AOneFugitiveCharacter* MyCharacter);
 
 	UFUNCTION()
-		void PlatformHit(AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit);
+		void PlatformHit(bool bTopHit, AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit);
 	UFUNCTION(BlueprintNativeEvent)
-		void PlatformHit_BP(AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit);
+		void PlatformHit_BP(bool bTopHit, AOneFugitiveCharacter* MyCharacter, const FHitResult& Hit);
 	// ----------------------------------------------------------------------------------------------------
 
 

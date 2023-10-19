@@ -6,7 +6,7 @@
 // Sets default values
 AOF_BasicPlatform::AOF_BasicPlatform()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Scene"));
@@ -25,7 +25,7 @@ AOF_BasicPlatform::AOF_BasicPlatform()
 void AOF_BasicPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	if (BoxTrigger)
 	{
 		BoxTrigger->OnComponentBeginOverlap.AddDynamic(this, &AOF_BasicPlatform::PlatformBeginOverlap);
@@ -93,7 +93,10 @@ void AOF_BasicPlatform::PlatformHit(
 
 	if (MyCharacter)
 	{
-		OnPlatformHit.Broadcast(MyCharacter, Hit);
+		OnPlatformHit.Broadcast(
+			Hit.ImpactNormal.Z <= -1,
+			MyCharacter,
+			Hit);
 	}
 }
 // ----------------------------------------------------------------------------------------------------

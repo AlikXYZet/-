@@ -48,7 +48,8 @@ protected:
 	 * Called via input to turn at a given rate.
 	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
 	 */
-	void TurnAtRate(float Rate);
+	UFUNCTION(BlueprintCallable)
+		void TurnAtRate(float Rate);
 
 	/**
 	 * Called via input to turn look up/down at a given rate.
@@ -94,9 +95,9 @@ public:
 	/** Получение урона от UE4 */
 	/** Taking damage from UE4 */
 	virtual float TakeDamage(
-		float DamageAmount, 
-		struct FDamageEvent const& DamageEvent, 
-		class AController* EventInstigator, 
+		float DamageAmount,
+		struct FDamageEvent const& DamageEvent,
+		class AController* EventInstigator,
 		AActor* DamageCauser) override;
 	// ----------------------------------------------------------------------------------------------------
 };

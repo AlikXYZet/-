@@ -22,7 +22,7 @@
 /* ---   Delegate   --- */
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnPlatformBeginOverlap, AOneFugitiveCharacter*, MyCharacter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnPlatformEndOverlap, AOneFugitiveCharacter*, MyCharacter);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnPlatformHit, AOneFugitiveCharacter*, MyCharacter, const FHitResult&, Hit);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnPlatformHit, bool, bTopHit, AOneFugitiveCharacter*, MyCharacter, const FHitResult&, Hit);
 // ----------------------------------------------------------------------------------------------------
 
 
@@ -80,10 +80,10 @@ public:
 	//
 	UFUNCTION()
 		void PlatformHit(
-			UPrimitiveComponent* HitComponent, 
-			AActor* OtherActor, 
-			UPrimitiveComponent* OtherComp, 
-			FVector NormalImpulse, 
+			UPrimitiveComponent* HitComponent,
+			AActor* OtherActor,
+			UPrimitiveComponent* OtherComp,
+			FVector NormalImpulse,
 			const FHitResult& Hit);
 	// ----------------------------------------------------------------------------------------------------
 
