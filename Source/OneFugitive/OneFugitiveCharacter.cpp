@@ -200,5 +200,14 @@ float AOneFugitiveCharacter::TakeDamage(
 
 	return ActualDamage;
 }
+
+/** Реакция на выпадение из мира от UE4 */
+/** Reaction to falling out of the world from UE4 */
+void AOneFugitiveCharacter::FellOutOfWorld(const class UDamageType& dmgType)
+{
+	CharDead();
+
+	Super::FellOutOfWorld(dmgType);
+}
 // ----------------------------------------------------------------------------------------------------
 

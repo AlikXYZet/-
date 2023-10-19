@@ -99,6 +99,10 @@ public:
 		struct FDamageEvent const& DamageEvent,
 		class AController* EventInstigator,
 		AActor* DamageCauser) override;
+
+	/** Реакция на выпадение из мира от UE4 */
+	/** Reaction to falling out of the world from UE4 */
+	virtual void FellOutOfWorld(const class UDamageType& dmgType);
 	// ----------------------------------------------------------------------------------------------------
 };
 
