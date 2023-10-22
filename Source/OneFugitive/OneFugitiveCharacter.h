@@ -102,7 +102,7 @@ public:
 
 	/** Реакция на выпадение из мира от UE4 */
 	/** Reaction to falling out of the world from UE4 */
-	virtual void FellOutOfWorld(const class UDamageType& dmgType);
+	virtual void FellOutOfWorld(const class UDamageType& dmgType) override;
 	// ----------------------------------------------------------------------------------------------------
 };
 
